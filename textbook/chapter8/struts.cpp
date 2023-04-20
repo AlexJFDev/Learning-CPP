@@ -8,7 +8,7 @@ void print(string str, string end = "\n") {
 }
 
 void print(double dub, string end = "\n"){
-    cout << dub << endl;
+    cout << dub << end;
 }
 
 struct Point {
@@ -41,7 +41,6 @@ struct Rectangle{
 
 int main() {
     Point origin = {0, 0};
-    Point other_point = {3.65, 66.2};
 
     Rectangle rect = {origin, 5, 5};
 
