@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     cout << "First Line." << endl;
-    newLine();
+    new_line();
     cout << "Second Line." << endl;
     return 0;
 }
