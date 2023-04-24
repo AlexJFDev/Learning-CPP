@@ -25,7 +25,7 @@ struct Point {
     }
 };
 
-struct Rectangle{
+struct Rectangle {
     Point upper_left_corner;
     double width, height;
 
