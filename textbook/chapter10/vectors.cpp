@@ -5,15 +5,8 @@
 #include <map>
 using namespace std;
 
-void print(string out, string end = "\n") {
-    cout << out << end;
-}
-
-void print(double out, string end = "\n") {
-    cout << out << end;
-}
-
-void print(int out, string end = "\n") {
+template <typename T>
+void print(T out, string end = "\n") {
     cout << out << end;
 }
 
